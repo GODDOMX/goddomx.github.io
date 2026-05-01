@@ -3,23 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <script>
-        const icons = ["👻", "👾", "👽", "🚀", "💸"];
-        let i = 0;
-
-        setInterval(() => {
-            const link = document.querySelector("link[rel*='icon']") || document.createElement('link');
-            link.type = 'image/svg+xml';
-            link.rel = 'icon';
-
-            link.href = `data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>${icons[i]}</text></svg>`;
-
-            document.getElementsByTagName('head')[0].appendChild(link);
-            i = (i + 1) % icons.length; 
-        }, 10000); 
-    </script>
+    <link rel="icon" href="https://mystickermania.com/cdn/stickers/among-us/among-us-glitch-effect-512x512.png" type="image/png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FOSH VX</title>
+    <title>FOSH V1</title>
     <style>
         body,
         html {
